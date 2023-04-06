@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(109.6deg, rgba(253, 223, 168, 1) 11.2%, rgba(246, 165, 254, 1) 100.2%);
+    background-size: 250% 150%;
+    animation: movement 7s ease infinite;
+}
+
+@keyframes movement {
+    0% {
+        background-position: 50% 0%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    10% {
+        background-position: 100% 0%;
+    }
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+
+.caja h1 {
+    text-align: center;
+    margin: 1rem auto 4rem;
+}
+
+.caja2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+.caja2 input {
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: rgb(242, 183, 237) 2px solid;
+}
+#respuesta{
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
